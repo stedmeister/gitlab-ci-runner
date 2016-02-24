@@ -1,0 +1,9 @@
+#!/bin/sh
+
+indent() {
+  sed -u 's/^/       /'
+}
+
+echo "-----> Installing docker"
+curl -sSL https://get.docker.com/ubuntu/ | sudo sh
+
