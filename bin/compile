@@ -5,5 +5,5 @@ indent() {
 }
 
 echo "-----> Installing docker"
-curl -sSL https://get.docker.com/ubuntu/ | sh
+curl -sSL https://get.docker.com/ | sh
 
